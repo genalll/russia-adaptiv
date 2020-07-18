@@ -1,0 +1,16 @@
+@import url("places_margin.css");
+.places{
+    display:flex;
+    flex-direction: column;
+    max-width: 984px;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media screen and (min-width:768px) and  (max-width:983px){
+    .places{
+        max-width:91.5%;}
+    }
+@media screen and (min-width:320px) and  (max-width:767px){
+        .places{
+            max-width:100%;}
+        }

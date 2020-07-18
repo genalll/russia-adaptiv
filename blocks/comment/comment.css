@@ -1,0 +1,33 @@
+@import url('__autor/comment__author.css');
+@import url('__image/comment__image.css');
+@import url('__quote/comment__quote.css');
+.comment{
+    display: flex;
+    flex-direction: column;
+    max-width:382px;
+    font-family: 'Inter', Arial, sans-serif;
+}
+@media screen and (min-width:375px) and  (max-width:1123px){
+    .comment{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        max-width:296px;
+        font-family: 'Inter', Arial, sans-serif;
+    }
+}
+
+@media screen and (min-width:320px) and  (max-width:1123px){
+    .comment{
+        align-items: center;
+        margin-top: 47px;
+    }
+}
+
+@media screen and (min-width:320px) and  (max-width:375px){
+    .comment{
+        max-width:91.5%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}

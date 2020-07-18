@@ -1,0 +1,58 @@
+.cover__bg{
+    position: absolute;
+    top:0;
+    left:0;
+    background:black;
+    opacity: 0;
+    min-width: 1184px;
+    min-height: 800px;
+    z-index: 100;
+    text-decoration-line: none;
+    z-index: 1;
+}
+
+@media screen and (min-width:1060px) and  (max-width:1220px){
+    .cover__bg{
+        min-width: 1124px;
+        min-height: 562px;
+    }
+}
+
+@media screen and (min-width:768px) and  (max-width:1059px){
+    .cover__bg{
+        min-width: 768px;
+        min-height: 500px;
+    }
+}
+
+@media screen and (min-width:570px) and  (max-width:767px){
+    .cover__bg{
+        max-width: 560px;
+        min-height:365px;
+        
+    }
+}
+
+@media screen and (min-width:470px) and  (max-width:569px){
+    .cover__bg{
+        max-width: 460px;
+        min-height:299px;
+        
+    }
+}
+
+@media screen and (min-width:375px) and  (max-width:469px){
+    .cover__bg{
+        min-width: 375px;
+        min-height:272px;
+        
+    }
+}
+
+@media screen and (min-width:320px) and  (max-width:374px){
+    .cover__bg{
+        min-width: 320px;
+        min-height:216px;
+    
+    }
+}

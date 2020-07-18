@@ -1,0 +1,68 @@
+@import url("__title/cover__title.css");
+@import url("__subtitle/cover__subtitle.css");
+@import url("__bg/bg.css");
+@import url("__link/cover__link.css");
+@import url("cover_margin.css");
+.cover{
+    position: relative;
+    background-image: url("../../images/cover.jpg");
+    background-size: cover;
+    max-width:1184px;
+    min-height:594px; 
+    background-position: center center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+    font-family: 'Inter', Arial, sans-serif;
+}
+.cover:hover .cover__bg{
+     opacity: .8;
+}
+
+@media screen and (min-width:1060px) and  (max-width:1220px){
+    .cover{
+        max-width: 1124px;
+        min-height: 562px;
+    }
+}
+
+@media screen and (min-width:768px) and  (max-width:1059px){
+    .cover{
+        max-width: 768px;
+        min-height: 500px;
+    }
+}
+
+@media screen and (min-width:570px) and  (max-width:767px){
+    .cover{
+        max-width: 560px;
+        min-height:365px;
+        
+    }
+}
+
+@media screen and (min-width:470px) and  (max-width:569px){
+    .cover{
+        max-width: 460px;
+        min-height:299px;
+        
+    }
+}
+
+@media screen and (min-width:375px) and  (max-width:469px){
+    .cover{
+        max-width: 375px;
+        min-height:272px;
+        
+    }
+}
+
+@media screen and (min-width:320px) and  (max-width:374px){
+    .cover{
+        max-width: 320px;
+        min-height:216px;
+    
+    }
+}

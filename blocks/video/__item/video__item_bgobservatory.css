@@ -1,0 +1,21 @@
+.video__item_bgobservatory{
+    background-image: url("../../../images/observatory.jpg");
+}
+
+@media screen and (min-width:930px) and  (max-width:1301px){
+    .video__item_bgobservatory{
+        background-size: 456px 288px;
+    }
+}
+
+@media screen and (min-width:705px) and  (max-width:929px){
+    .video__item_bgobservatory{
+        background-size: 352px 200px;
+    }
+}
+
+@media screen and (min-width:320px) and  (max-width:705px){
+    .video__item_bgkamchatka{
+        background-size: 352px 200px;
+    }
+}

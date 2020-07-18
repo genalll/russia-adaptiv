@@ -1,0 +1,25 @@
+@import url('__title/intro__title.css');
+@import url('__content-row/intro__content-row.css');
+@import url('__main-text/intro__main-text.css');
+@import url('__caption-text-stat/intro__caption-text-stat.css');
+@import url('__no-bold/intro__nobold.css');
+@import url('intro_margin.css');
+
+.intro{
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media screen and (min-width:985px) and  (max-width:1124px){
+    .intro{
+        max-width: 928px;
+    }
+}
+@media screen and (min-width:320px) and  (max-width:984px){
+    .intro{
+        max-width: 91%;
+    }
+}

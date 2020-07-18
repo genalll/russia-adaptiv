@@ -1,0 +1,22 @@
+.intro__caption-text-stat{
+    margin: 0 auto;
+    margin-top:35px;
+    margin-left:0;
+    margin-right: auto;
+    padding:0;
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width:320px) and  (max-width:767px){
+    .intro__caption-text-stat{
+        font-size: 12px;
+        line-height: 19px;
+        margin-top:24px;
+    }
+}

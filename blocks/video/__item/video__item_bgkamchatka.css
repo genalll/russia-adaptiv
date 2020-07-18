@@ -1,0 +1,24 @@
+.video__item_bgkamchatka{
+    opacity: 0.8;
+    background-image: url("../../../images/kamchatka.jpg");
+    margin-right:18px;
+}
+
+@media screen and (min-width:930px) and  (max-width:1301px){
+    .video__item_bgkamchatka{
+        background-size: 456px 288px;
+    }
+}
+@media screen and (min-width:705px) and  (max-width:929px){
+    .video__item_bgkamchatka{
+        background-size: 352px 200px;
+        margin-right:16px;
+    }
+}
+@media screen and (min-width:320px) and  (max-width:900px){
+    .video__item_bgkamchatka{
+        background-size: 352px 200px;
+        margin-right:0;
+        margin-bottom: 16px;
+    }
+}
